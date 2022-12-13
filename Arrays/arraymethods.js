@@ -3,10 +3,11 @@
 //1. push and unshift
 // const status = array1.push('run')
 // array1.unshift('sleep')
+//unshift adds at index 0. Push at end.
 
 //2. pop and shift
-// array1.pop(array1) 
-// array1.shift(array1)
+// array1.pop(array1)  from end
+// array1.shift(array1) from index 0.
 
 
 //3. splice to delete and to add in the middle
@@ -14,6 +15,13 @@
 
 //4. splice Delete
 // hobbies.splice(1,2)
+// At position 2, add 2 elements:
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.splice(2, 0, "Lemon", "Kiwi");
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi"];
+// fruits.splice(2, 2);
+// At position 2, remove 2 items:
 
 
 //5. slice
